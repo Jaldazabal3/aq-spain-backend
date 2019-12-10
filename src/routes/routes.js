@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-router.get('/test', (req, res) => {
+router.get('/cities/:city', (req, res) => {
   res.send('Accessing not root');
 });
 
